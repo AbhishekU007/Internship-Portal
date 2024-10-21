@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Internship Portal
+
+An internship portal designed to streamline the process of finding and applying for internships, as well as for companies to manage applicants and postings. This project focuses on creating an easy-to-use interface for both students and companies to enhance the internship experience.
+
+## Features
+* For Students:
+    * Browse available internships by category or location.
+    * Apply for internships directly through the platform.
+    * Track application status.
+      
+* For Companies:
+    * Post internship opportunities.
+    * Manage internship listings.
+    * View and manage applications from students.
+
+## Tech Stack
+* Frontend: HTML, CSS, JavaScript
+* Backend: Node.js, Express.js
+* Database: MongoDB
+* Version Control: Git and GitHub
+
+  
+## Installation and Setup
+To run this project locally, follow the steps below:
+
+1. Clone the repository:
+
+      `git clone https://github.com/sunny7899/Internship-Portal.git`
+
+2. Install the necessary dependencies:
+
+      `cd Internship-Portal
+      npm install`
+
+3. Set up your environment variables (like database connection string, etc.) in a .env file.
+
+4. Run the server:
+
+      `npm start`
+
+Access the portal in your browser at http://localhost:3000.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+* `npm start`: Runs the app in development mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    * Open http://localhost:3000 to view it in the browser.
+    * The page will reload if you make edits.
+    * You will also see any lint errors in the console.
+      
+* `npm test`: Launches the test runner in interactive watch mode.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    * See the section about running tests for more information.
+      
+* `npm run build`: Builds the app for production in the build folder.
 
-### `npm test`
+    * It bundles React correctly in production mode and optimizes the build for best performance.
+    * The build is minified, and the filenames include hashes.
+    * Your app is ready for deployment!
+      
+* `npm run eject`: If you aren’t satisfied with the build tool and configuration choices, you can eject at any time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
+    * This command will remove the single build dependency from your project.
+    * __Note__: This is a one-way operation. Once you eject, you can’t go back!
+      
 ## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
+Learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Additional Resources
+* [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* [Troubleshooting `npm run build` issues](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+## Current Functionality
+* Admin Login
+* Adding a Job
+* Viewing a Job
+* Login as Student
+* Applying for a Job
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Future Improvements
+* Add search and filter options for internships.
+* Add email notifications for students and companies.
+* Improve UI/UX for a more intuitive experience.
+* Implement a dashboard for tracking statistics related to internships and applicants.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Feel free to open an issue or submit a pull request if you have any ideas for improvements or new features. Contributions are always welcome!
